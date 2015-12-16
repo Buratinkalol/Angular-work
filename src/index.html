@@ -11,9 +11,7 @@
 </head>
 <body style="background-color: #f2f2f2">
 <div ng-include="'header/header.html'"></div>
-<div style="margin-top: 50px">
-    <button class="btn btn-success">This is {{testVar}}</button>
-</div>
+<div ng-include="'blocks/blocks.html'"></div>
 <footer ng-include="'footer/footer.html'" class="footer"></footer>
 <script src="libs/jquery-2.1.1.min.js" type="text/javascript"></script>
 <script src="libs/bootstrap/bootstrap.min.js" type="text/javascript"></script>
@@ -21,6 +19,7 @@
 <script src="libs/angular-route/angular-route.min.js" type="text/javascript"></script>
 <script src="mainCtrl.js" type="text/javascript"></script>
 <script src="header/headerCtrl.js" type="text/javascript"></script>
+<script src="blocks/blocksCtrl.js" type="text/javascript"></script>
 <script src="footer/footerCtrl.js" type="text/javascript"></script>
 </body>
 </html>
